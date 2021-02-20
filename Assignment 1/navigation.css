@@ -1,0 +1,20 @@
+body{
+	background-color: white;
+}
+.right {
+	float: left;
+	width: 100px;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  }
+  
+ 
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

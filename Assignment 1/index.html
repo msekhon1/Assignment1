@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 1</title>
+<style>
+.right {
+	background-color: white;
+	float: right;
+	width: 250px;
+	border: 3px solid black;
+	padding: 50px;
+}
+.centre{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgrey;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+</style>
+<img src="fake_store_logo.jpg" alt="The Fake Store Logo" style="width:50px;height:50px;">
+<img src="The_Fake_Shop_title.jpg" alt="The Fake Store Title" style="width:150px;height:50px;">
+<input type="image"  src="viewcart.jpg" style="width:50px;height:50px;float:right"/>
+<form action="/action_page.php">
+	<input type="text" id="searchbar" value="Search">
+	<input type="Submit" value="Submit"><br>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="banner.css">
+</head>
+<body>
+<div class="dropdown">
+  <button class="dropbtn"> Go To </button>
+  <div class="dropdown-content">
+    <a href="#">Main</a>
+    </div>
+</div>
+<h1> The Fake Shop </h1> 
+<br>
+<br>
+<div class="right">
+<p> 100% Cotton T-Shirt! Comes in a variety of colours, such as Black, White, Grey</p>
+<h4>Features</h4>
+<ul>
+<li> Keeps your body warm!</li>
+<li> Keeps your arms cool!</li>
+</ul>
+<div class="dropdown">
+  <button class="dropbtn"> Choose Colour </button>
+  <div class="dropdown-content">
+    <a href="#">Black</a>
+    <a href="#">White</a>
+    <a href="#">Grey</a>
+  </div>
+</div>
+<br>
+<br>
+<input type="image"  src="addcart.jpg" style="width:50px;height:50px"/>
+</div>
+<img src="tshirt.jpg" alt="T-Shirt Black" style="width:170px;height:280px;" class="centre">
+</body>
+<footer>
+<br>
+<br>
+<br>
+<h3>Similar Products</h3>
+<img src="pants.jpg" alt="Pants" style="width:200px;height:150px;">
+<img src="shorts.jpg" alt="Shorts" style="width:140px;height:150px;">
+</html>	
